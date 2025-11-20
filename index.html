@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Our Weather</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+<style>
+    * {
+        font-family: 'poppins';
+    }
+
+    body {
+    background-image: linear-gradient(rgba(0, 0, 0.5, 0.8) 0, rgba(0, 0.5, 0, 0) 60%, rgba(0, 0, 0.5, 0.8) 100%),url(hb.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    }
+</style>
+
+<body class="">
+    <div
+        class="flex justify-around items-center h-20 bg-gradient-to-r from-indigo-100 from-10% via-sky-200 via-30% to-emerald-100 text-slate-800 drop-shadow-lg">
+        <div class='flex justify-center items-center'>
+            <img class='w-8 h-8 cursor-pointer' src="umbrella.png"></>
+            <h2 class='font-bold cursor-pointer'>Our Weather</h2>
+        </div>
+        <div>
+            <ul class='flex justify-center items-center gap-10'>
+                <li class='hover:border-b-2 border-slate-600 cursor-pointer text-md'><a href="#">Home</a></li>
+                <li class='hover:border-b-2 border-slate-600 cursor-pointer'><a href="aboutus.html">About us</a></li>
+                <li class='hover:border-b-2 border-slate-600 cursor-pointer'><a href="contactus.html">Contact us</a></li>
+                <li class='hover:border-b-2 border-slate-600 cursor-pointer'><a href="weather.html">Weather</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class='shadow-lg hover:bg-blue-800 w-24 h-9 bg-blue-500 rounded-full text-white text-sm'><a
+                    href="weather.html">Get Started</a></button>
+        </div>
+    </div>
+    <div class="w-screen h-screen flex flex-col gap-5 items-center justify-center">
+        <p class="text-white text-xl m">Start searching for your city to know weather details</p>
+        <a href="weather.html"><button class='shadow-lg hover:bg-slate-300 w-48 h-10 bg-white rounded-full text-black text-sm'>Get
+                Started</button></a>
+    </div>
+    <div>
+        
+        <div className='border-t-2 border-slate-400 shadow-lg flex justify-center text-slate-600 items-center text-sm h-20 bg-gradient-to-r from-indigo-100 from-10% via-sky-200 via-30% to-emerald-100'>
+        Copyright<span className="font-bold text-2xl mx-1">©</span> 2024 CVR Hospitals Inc.
+        </div>
+      </div>
+    
+</body>
+
+</html>
